@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Path from 'zrender/src/graphic/Path';
+import Path from '@ftf/zrender/src/graphic/Path';
 
 export default Path.extend({
 

@@ -24,7 +24,7 @@
  * https://gephi.org/gexf/1.2draft/gexf-12draft-primer.pdf
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 export function parse(xml) {
     var doc;

@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as graphic from '../util/graphic';
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@ftf/zrender/src/contain/text';
 
 var PI = Math.PI;
 

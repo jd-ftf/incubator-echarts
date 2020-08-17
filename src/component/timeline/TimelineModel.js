@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import ComponentModel from '../../model/Component';
 import List from '../../data/List';
 import * as modelUtil from '../../util/model';

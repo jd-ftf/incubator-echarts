@@ -28,7 +28,7 @@ function run(cb) {
         files.forEach(function (filePath) {
             var code = parse(fsExtra.readFileSync(
                 __dirname + '/../src/' + filePath, 'utf-8'));
-            code = code.replace(/require\(([\'"])zrender\//g, 'require($1zrender/lib/');
+            code = code.replace(/require\(([\'"])@ftf\/zrender\//g, 'require($1@ftf/zrender/lib/');
             fsExtra.outputFileSync(
                 __dirname + '/../lib/' + filePath,
                 code, 'utf-8');

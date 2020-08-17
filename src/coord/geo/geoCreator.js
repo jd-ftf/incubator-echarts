@@ -19,7 +19,7 @@
 
 import {__DEV__} from '../../config';
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import Geo from './Geo';
 import * as layout from '../../util/layout';
 import * as numberUtil from '../../util/number';

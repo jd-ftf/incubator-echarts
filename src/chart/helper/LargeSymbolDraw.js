@@ -23,7 +23,7 @@
 
 import * as graphic from '../../util/graphic';
 import {createSymbol} from '../../util/symbol';
-import IncrementalDisplayable from 'zrender/src/graphic/IncrementalDisplayable';
+import IncrementalDisplayable from '@ftf/zrender/src/graphic/IncrementalDisplayable';
 
 var BOOST_SIZE_THRESHOLD = 4;
 

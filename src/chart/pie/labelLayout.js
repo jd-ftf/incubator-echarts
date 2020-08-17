@@ -19,7 +19,7 @@
 
 // FIXME emphasis label position is not same with normal label position
 
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@ftf/zrender/src/contain/text';
 import {parsePercent} from '../../util/number';
 
 var RADIAN = Math.PI / 180;

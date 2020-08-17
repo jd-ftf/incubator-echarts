@@ -59,7 +59,7 @@
             baseUrl: baseUrl,
             paths: {
                 'echarts': ecDistPath,
-                'zrender': 'node_modules/zrender/dist/zrender',
+                'zrender': 'node_modules/@ftf/zrender/dist/zrender',
                 'geoJson': '../geoData/geoJson',
                 'theme': 'theme',
                 'data': 'test/data',
@@ -76,7 +76,7 @@
             baseUrl: baseUrl,
             paths: {
                 'echarts': './',
-                'zrender': 'node_modules/zrender',
+                'zrender': 'node_modules/@ftf/zrender',
                 'geoJson': 'geoData/geoJson',
                 'theme': 'theme',
                 'data': 'test/data',

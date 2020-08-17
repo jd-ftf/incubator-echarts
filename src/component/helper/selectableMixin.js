@@ -23,7 +23,7 @@
  * And each data item will use `selected` to toggle itself selected status
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 export default {
 

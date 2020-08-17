@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import * as formatUtil from '../../util/format';
 import * as layout from '../../util/layout';

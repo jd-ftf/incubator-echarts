@@ -20,7 +20,7 @@
 import * as echarts from '../../echarts';
 import {Polygon} from '../line/poly';
 import * as graphic from '../../util/graphic';
-import {bind, extend} from 'zrender/src/core/util';
+import {bind, extend} from '@ftf/zrender/src/core/util';
 import DataDiffer from '../../data/DataDiffer';
 
 export default echarts.extendChartView({

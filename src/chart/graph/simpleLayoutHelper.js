@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as vec2 from 'zrender/src/core/vector';
-import * as zrUtil from 'zrender/src/core/util';
+import * as vec2 from '@ftf/zrender/src/core/vector';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {getCurvenessForEdge} from '../helper/multipleGraphEdgeHelper';
 
 

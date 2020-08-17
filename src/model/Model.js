@@ -21,8 +21,8 @@
  * @module echarts/model/Model
  */
 
-import * as zrUtil from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import env from '@ftf/zrender/src/core/env';
 import {makeInner} from '../util/model';
 import {enableClassExtend, enableClassCheck} from '../util/clazz';
 

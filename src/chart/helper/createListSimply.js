@@ -20,7 +20,7 @@
 
 import createDimensions from '../../data/helper/createDimensions';
 import List from '../../data/List';
-import {extend, isArray} from 'zrender/src/core/util';
+import {extend, isArray} from '@ftf/zrender/src/core/util';
 
 /**
  * [Usage]:

@@ -20,9 +20,9 @@
 // TODO Batch by color
 
 import * as graphic from '../../util/graphic';
-import IncrementalDisplayable from 'zrender/src/graphic/IncrementalDisplayable';
-import * as lineContain from 'zrender/src/contain/line';
-import * as quadraticContain from 'zrender/src/contain/quadratic';
+import IncrementalDisplayable from '@ftf/zrender/src/graphic/IncrementalDisplayable';
+import * as lineContain from '@ftf/zrender/src/contain/line';
+import * as quadraticContain from '@ftf/zrender/src/contain/quadratic';
 
 var LargeLineShape = graphic.extendShape({
 

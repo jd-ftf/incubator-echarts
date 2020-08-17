@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
 import {onIrrelevantElement} from './cursorHelper';
 import * as graphicUtil from '../../util/graphic';
 

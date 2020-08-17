@@ -19,7 +19,7 @@
 
 /* global Uint8ClampedArray */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 var GRADIENT_LEVELS = 256;
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap} from 'zrender/src/core/util';
+import {createHashMap} from '@ftf/zrender/src/core/util';
 
 export default function (ecModel) {
     ecModel.eachSeriesByType('themeRiver', function (seriesModel) {

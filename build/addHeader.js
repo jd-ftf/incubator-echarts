@@ -21,7 +21,7 @@
 const fs = require('fs');
 const preamble = require('./preamble');
 const pathTool = require('path');
-const {color} = require('zrender/build/helper');
+const {color} = require('@ftf/zrender/build/helper');
 
 // In the `.headerignore`, each line is a pattern in RegExp.
 // all relative path (based on the echarts base directory) is tested.

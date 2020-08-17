@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import {parseSVG, makeViewBoxTransform} from 'zrender/src/tool/parseSVG';
-import Group from 'zrender/src/container/Group';
-import Rect from 'zrender/src/graphic/shape/Rect';
-import {assert, createHashMap} from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import {parseSVG, makeViewBoxTransform} from '@ftf/zrender/src/tool/parseSVG';
+import Group from '@ftf/zrender/src/container/Group';
+import Rect from '@ftf/zrender/src/graphic/shape/Rect';
+import {assert, createHashMap} from '@ftf/zrender/src/core/util';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
 import {makeInner} from '../../util/model';
 
 var inner = makeInner();

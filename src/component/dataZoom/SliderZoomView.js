@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as eventTool from 'zrender/src/core/event';
+import * as zrUtil from '@ftf//src/core/util';
+import * as eventTool from '@ftf/zrender/src/core/event';
 import * as graphic from '../../util/graphic';
 import * as throttle from '../../util/throttle';
 import DataZoomView from './DataZoomView';

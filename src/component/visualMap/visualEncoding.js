@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as visualSolution from '../../visual/visualSolution';
 import VisualMapping from '../../visual/VisualMapping';
 

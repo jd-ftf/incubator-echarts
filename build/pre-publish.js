@@ -26,7 +26,7 @@
 
 const path = require('path');
 const fsExtra = require('fs-extra');
-const {color, travelSrcDir, prePulishSrc} = require('zrender/build/helper');
+const {color, travelSrcDir, prePulishSrc} = require('@ftf/zrender/build/helper');
 
 const ecDir = path.resolve(__dirname, '..');
 const srcDir = path.resolve(__dirname, '../src');

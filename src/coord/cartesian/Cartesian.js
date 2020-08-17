@@ -23,7 +23,7 @@
  *
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 function dimAxisMapper(dim) {
     return this._axes[dim];

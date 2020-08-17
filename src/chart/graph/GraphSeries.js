@@ -19,7 +19,7 @@
 
 import * as echarts from '../../echarts';
 import List from '../../data/List';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {defaultEmphasis} from '../../util/model';
 import Model from '../../model/Model';
 import {encodeHTML} from '../../util/format';

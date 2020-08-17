@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as axisPointerModelHelper from './axisPointer/modelHelper';
 import axisTrigger from './axisPointer/axisTrigger';
 

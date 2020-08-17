@@ -22,7 +22,7 @@
 // merge with defaultDimValueGetter?
 
 import {__DEV__} from '../../config';
-import {isTypedArray, extend, assert, each, isObject} from 'zrender/src/core/util';
+import {isTypedArray, extend, assert, each, isObject} from '@ftf/zrender/src/core/util';
 import {getDataItemValue, isDataItemOption} from '../../util/model';
 import {parseDate} from '../../util/number';
 import Source from '../Source';

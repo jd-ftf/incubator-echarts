@@ -27,7 +27,7 @@
 // check: "modelHelper" of tooltip and "BrushTargetManager".
 
 import {__DEV__} from '../config';
-import {createHashMap, retrieve, each} from 'zrender/src/core/util';
+import {createHashMap, retrieve, each} from '@ftf/zrender/src/core/util';
 
 /**
  * @class

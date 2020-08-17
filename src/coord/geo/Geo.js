@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
 import View from '../View';
 import geoSourceManager from './geoSourceManager';
 

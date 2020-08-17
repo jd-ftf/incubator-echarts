@@ -23,7 +23,7 @@
 
 import * as graphic from '../../util/graphic';
 import SymbolClz from './Symbol';
-import { isObject } from 'zrender/src/core/util';
+import { isObject } from '@ftf/zrender/src/core/util';
 
 /**
  * @constructor

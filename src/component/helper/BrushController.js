@@ -18,8 +18,8 @@
 */
 
 import {__DEV__} from '../../config';
-import * as zrUtil from 'zrender/src/core/util';
-import Eventful from 'zrender/src/mixin/Eventful';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import Eventful from '@ftf/zrender/src/mixin/Eventful';
 import * as graphic from '../../util/graphic';
 import * as interactionMutex from './interactionMutex';
 import DataDiffer from '../../data/DataDiffer';

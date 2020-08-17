@@ -24,10 +24,10 @@ const fs = require('fs');
 const {resolve} = require('path');
 const config = require('./config.js');
 const commander = require('commander');
-const {build, watch, color} = require('zrender/build/helper');
+const {build, watch, color} = require('@ftf/zrender/build/helper');
 const ecLangPlugin = require('./rollup-plugin-ec-lang');
 const prePublish = require('./pre-publish');
-const recheckDEV = require('zrender/build/babel-plugin-transform-remove-dev').recheckDEV;
+const recheckDEV = require('@ftf/zrender/build/babel-plugin-transform-remove-dev').recheckDEV;
 
 function run() {
 

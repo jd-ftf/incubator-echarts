@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, isString} from 'zrender/src/core/util';
+import {each, isString} from '@ftf/zrender/src/core/util';
 
 /**
  * Note that it is too complicated to support 3d stack by value

@@ -23,9 +23,9 @@
  */
 
 import Polyline from './Polyline';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import EffectLine from './EffectLine';
-import * as vec2 from 'zrender/src/core/vector';
+import * as vec2 from '@ftf/zrender/src/core/vector';
 
 /**
  * @constructor

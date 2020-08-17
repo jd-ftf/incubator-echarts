@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as zrColor from 'zrender/src/tool/color';
-import * as eventUtil from 'zrender/src/core/event';
-import * as domUtil from 'zrender/src/core/dom';
-import env from 'zrender/src/core/env';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as zrColor from '@ftf/zrender/src/tool/color';
+import * as eventUtil from '@ftf/zrender/src/core/event';
+import * as domUtil from '@ftf/zrender/src/core/dom';
+import env from '@ftf/zrender/src/core/env';
 import * as formatUtil from '../../util/format';
 
 var each = zrUtil.each;
@@ -174,7 +174,7 @@ function makeStyleCoord(out, zr, appendToBody, zrX, zrY) {
  * @constructor
  */
 function TooltipContent(container, api, opt) {
-    if (env.wxa) {
+    if (env.wxa || env.jda) {
         return null;
     }
 

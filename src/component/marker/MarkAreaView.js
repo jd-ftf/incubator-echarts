@@ -19,8 +19,8 @@
 
 // TODO Better on polar
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as colorUtil from 'zrender/src/tool/color';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as colorUtil from '@ftf/zrender/src/tool/color';
 import List from '../../data/List';
 import * as numberUtil from '../../util/number';
 import * as graphic from '../../util/graphic';

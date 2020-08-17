@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 export function retrieveTargetInfo(payload, validPayloadTypes, seriesModel) {
     if (payload && zrUtil.indexOf(validPayloadTypes, payload.type) >= 0) {

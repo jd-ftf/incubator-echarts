@@ -17,7 +17,7 @@
 * under the License.
 */
 
-var zrUtil = require("zrender/core/util");
+var zrUtil = require("@ftf/zrender/core/util");
 
 function bb() {
   zrUtil();

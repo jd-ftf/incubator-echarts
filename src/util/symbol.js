@@ -19,10 +19,10 @@
 
 // Symbol factory
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as graphic from './graphic';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import {calculateTextPosition} from 'zrender/src/contain/text';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
+import {calculateTextPosition} from '@ftf/zrender/src/contain/text';
 
 /**
  * Triangle shape

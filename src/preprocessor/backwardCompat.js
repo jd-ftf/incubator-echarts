@@ -19,7 +19,7 @@
 
 // Compatitable with 2.0
 
-import {each, isArray, isObject} from 'zrender/src/core/util';
+import {each, isArray, isObject} from '@ftf/zrender/src/core/util';
 import compatStyle from './helper/compatStyle';
 import {normalizeToArray} from '../util/model';
 

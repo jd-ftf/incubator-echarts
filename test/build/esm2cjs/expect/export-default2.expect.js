@@ -17,7 +17,7 @@
 * under the License.
 */
 
-var xx = require("zrender/core/util");
+var xx = require("@ftf/zrender/core/util");
 
 // export * from './echarts';
 // export {default as defaultAsBB} from './xx/yy';

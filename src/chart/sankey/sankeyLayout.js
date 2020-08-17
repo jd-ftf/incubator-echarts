@@ -18,7 +18,7 @@
 */
 
 import * as layout from '../../util/layout';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {groupData} from '../../util/model';
 
 export default function (ecModel, api, payload) {

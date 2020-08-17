@@ -22,8 +22,8 @@
  * <https://en.wikipedia.org/wiki/Parallel_coordinates>
  */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as matrix from 'zrender/src/core/matrix';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as matrix from '@ftf/zrender/src/core/matrix';
 import * as layoutUtil from '../../util/layout';
 import * as axisHelper from '../../coord/axisHelper';
 import ParallelAxis from './ParallelAxis';

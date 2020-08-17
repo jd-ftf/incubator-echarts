@@ -23,7 +23,7 @@
  * @module echarts/model/Component
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import Model from './Model';
 import * as componentUtil from '../util/component';
 import {enableClassManagement, parseClassType} from '../util/clazz';

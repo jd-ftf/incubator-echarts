@@ -24,7 +24,7 @@ const nodeFS = require('fs');
 const assert = require('assert');
 const nodePath = require('path');
 const commander = require('commander');
-const {color} = require('zrender/build/helper');
+const {color} = require('@ftf/zrender/build/helper');
 
 const colorFgCyanDim = color('fgCyan', 'dim');
 const colorFgGreen = color('fgGreen');

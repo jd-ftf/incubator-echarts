@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as vec2 from 'zrender/src/core/vector';
+import * as vec2 from '@ftf/zrender/src/core/vector';
 import {getSymbolSize, getNodeGlobalScale} from './graphHelper';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {getCurvenessForEdge} from '../helper/multipleGraphEdgeHelper';
 
 var PI = Math.PI;

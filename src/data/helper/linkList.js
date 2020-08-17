@@ -21,7 +21,7 @@
  * Link lists and struct (graph or tree)
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 var each = zrUtil.each;
 

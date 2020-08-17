@@ -21,7 +21,7 @@
  * @module echarts/stream/Scheduler
  */
 
-import {each, map, isFunction, createHashMap, noop} from 'zrender/src/core/util';
+import {each, map, isFunction, createHashMap, noop} from '@ftf/zrender/src/core/util';
 import {createTask} from './task';
 import {getUID} from '../util/component';
 import GlobalModel from '../model/Global';

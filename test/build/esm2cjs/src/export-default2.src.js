@@ -18,7 +18,7 @@
 */
 
 
-import xx from 'zrender/core/util';
+import xx from '@ftf/zrender/core/util';
 
 // export * from './echarts';
 // export {default as defaultAsBB} from './xx/yy';

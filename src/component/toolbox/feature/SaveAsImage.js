@@ -19,7 +19,7 @@
 
 /* global Uint8Array */
 
-import env from 'zrender/src/core/env';
+import env from '@ftf/zrender/src/core/env';
 import lang from '../../../lang';
 import * as featureManager from '../featureManager';
 

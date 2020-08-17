@@ -22,11 +22,11 @@
  * Mapping given x, y to transformd view x, y
  */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as vector from 'zrender/src/core/vector';
-import * as matrix from 'zrender/src/core/matrix';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import Transformable from 'zrender/src/mixin/Transformable';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as vector from '@ftf/zrender/src/core/vector';
+import * as matrix from '@ftf/zrender/src/core/matrix';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
+import Transformable from '@ftf/zrender/src/mixin/Transformable';
 
 var v2ApplyTransform = vector.applyTransform;
 

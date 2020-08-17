@@ -19,7 +19,7 @@
 
 import SeriesModel from '../../model/Series';
 import createListSimply from '../helper/createListSimply';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {encodeHTML} from '../../util/format';
 import LegendVisualProvider from '../../visual/LegendVisualProvider';
 

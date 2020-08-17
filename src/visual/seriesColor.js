@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import Gradient from 'zrender/src/graphic/Gradient';
-import {isFunction} from 'zrender/src/core/util';
+import Gradient from '@ftf/zrender/src/graphic/Gradient';
+import {isFunction} from '@ftf/zrender/src/core/util';
 
 export default {
     createOnAllSeries: true,

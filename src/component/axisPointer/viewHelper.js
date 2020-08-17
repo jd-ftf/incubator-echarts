@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@ftf/zrender/src/contain/text';
 import * as formatUtil from '../../util/format';
-import * as matrix from 'zrender/src/core/matrix';
+import * as matrix from '@ftf/zrender/src/core/matrix';
 import * as axisHelper from '../../coord/axisHelper';
 import AxisBuilder from '../axis/AxisBuilder';
 

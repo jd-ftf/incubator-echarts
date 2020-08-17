@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import AxisBuilder from './AxisBuilder';
 import * as graphic from '../../util/graphic';
 import * as singleAxisHelper from '../../coord/single/singleAxisHelper';

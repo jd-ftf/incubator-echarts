@@ -19,7 +19,7 @@
 
 import * as echarts from '../../echarts';
 import createListSimply from '../helper/createListSimply';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as modelUtil from '../../util/model';
 import {getPercentWithPrecision} from '../../util/number';
 import dataSelectableMixin from '../../component/helper/selectableMixin';

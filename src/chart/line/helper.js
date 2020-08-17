@@ -18,7 +18,7 @@
 */
 
 import {isDimensionStacked} from '../../data/helper/dataStackHelper';
-import {map} from 'zrender/src/core/util';
+import {map} from '@ftf/zrender/src/core/util';
 
 /**
  * @param {Object} coordSys

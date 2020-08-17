@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/core/util';
+import * as zrUtil from '@ftf/zrender/core/util';
 
 export default function () {
     zrUtil();

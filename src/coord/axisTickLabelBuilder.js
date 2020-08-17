@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as textContain from 'zrender/src/contain/text';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as textContain from '@ftf/zrender/src/contain/text';
 import {makeInner} from '../util/model';
 import {
     makeLabelFormatter,

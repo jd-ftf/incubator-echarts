@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import {makeInner} from '../../util/model';
 import * as modelHelper from './modelHelper';
 import findPointFromSeries from './findPointFromSeries';

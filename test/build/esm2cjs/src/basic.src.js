@@ -19,13 +19,13 @@
 
 
 import * as util from './a/b/util';
-import * as zrUtil from 'zrender/core/util';
-import {someInZrUtil1 as someInZrUtil1Alias, zz} from 'zrender/core/util';
-import {color2 as color2Alias, color, color3, color4} from 'zrender/core/color';
+import * as zrUtil from '@ftf/zrender/core/util';
+import {someInZrUtil1 as someInZrUtil1Alias, zz} from '@ftf/zrender/core/util';
+import {color2 as color2Alias, color, color3, color4} from '@ftf/zrender/core/color';
 import Some from 'some';
 import Some2 from 'some2';
 
-export {someInZrUtil2} from 'zrender/src/core/util';
+export {someInZrUtil2} from '@ftf/zrender/src/core/util';
 
 export * from './echarts';
 export {default as defaultAsBB} from './xx/yy';

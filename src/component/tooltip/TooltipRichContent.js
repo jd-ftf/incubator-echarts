@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-// import Group from 'zrender/src/container/Group';
-import Text from 'zrender/src/graphic/Text';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+// import Group from '@ftf/zrender/src/container/Group';
+import Text from '@ftf/zrender/src/graphic/Text';
 import * as graphicUtil from '../../util/graphic';
 
 

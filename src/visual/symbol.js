@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {isFunction} from 'zrender/src/core/util';
+import {isFunction} from '@ftf/zrender/src/core/util';
 
 export default function (seriesType, defaultSymbolType, legendSymbol) {
     // Encoding visual for all series include which is filtered for legend drawing

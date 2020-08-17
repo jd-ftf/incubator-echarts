@@ -24,7 +24,7 @@
  */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as modelUtil from '../util/model';
 import ComponentModel from './Component';
 

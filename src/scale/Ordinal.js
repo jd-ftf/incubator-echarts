@@ -26,7 +26,7 @@
 
 // FIXME only one data
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import Scale from './Scale';
 import OrdinalMeta from '../data/OrdinalMeta';
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap, isTypedArray} from 'zrender/src/core/util';
+import {createHashMap, isTypedArray} from '@ftf/zrender/src/core/util';
 import {enableClassCheck} from '../util/clazz';
 import {
     SOURCE_FORMAT_ORIGINAL,

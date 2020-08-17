@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap, each} from 'zrender/src/core/util';
+import {createHashMap, each} from '@ftf/zrender/src/core/util';
 
 // (1) [Caution]: the logic is correct based on the premises:
 //     data processing stage is blocked in stream.

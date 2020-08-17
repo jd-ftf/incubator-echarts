@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import List from '../../data/List';
 import createDimensions from '../../data/helper/createDimensions';
 import {SOURCE_FORMAT_ORIGINAL} from '../../data/helper/sourceType';

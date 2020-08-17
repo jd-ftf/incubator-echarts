@@ -22,7 +22,7 @@
  * Use `echarts/data/helper/createDimensions` instead.
  */
 
-import {createHashMap, each, isString, defaults, extend, isObject, clone} from 'zrender/src/core/util';
+import {createHashMap, each, isString, defaults, extend, isObject, clone} from '@ftf/zrender/src/core/util';
 import {normalizeToArray} from '../../util/model';
 import {guessOrdinal, BE_ORDINAL} from './sourceHelper';
 import Source from '../Source';

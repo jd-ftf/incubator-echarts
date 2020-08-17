@@ -20,7 +20,7 @@
 // Pick color from palette for each data item.
 // Applicable for charts that require applying color palette
 // in data level (like pie, funnel, chord).
-import {createHashMap} from 'zrender/src/core/util';
+import {createHashMap} from '@ftf/zrender/src/core/util';
 
 export default function (seriesType) {
     return {

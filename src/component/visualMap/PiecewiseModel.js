@@ -18,7 +18,7 @@
 */
 
 import {__DEV__} from '../../config';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import VisualMapModel from './VisualMapModel';
 import VisualMapping from '../../visual/VisualMapping';
 import visualDefault from '../../visual/visualDefault';

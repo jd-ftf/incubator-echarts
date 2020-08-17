@@ -18,8 +18,8 @@
 */
 
 import {__DEV__} from '../../config';
-import {createHashMap, isString, isArray, each, assert} from 'zrender/src/core/util';
-import {parseXML} from 'zrender/src/tool/parseSVG';
+import {createHashMap, isString, isArray, each, assert} from '@ftf/zrender/src/core/util';
+import {parseXML} from '@ftf/zrender/src/tool/parseSVG';
 
 
 var storage = createHashMap();

@@ -17,14 +17,14 @@
 * under the License.
 */
 
-import {retrieve, defaults, extend, each} from 'zrender/src/core/util';
+import {retrieve, defaults, extend, each} from '@ftf/zrender/src/core/util';
 import * as formatUtil from '../../util/format';
 import * as graphic from '../../util/graphic';
 import Model from '../../model/Model';
 import {isRadianAroundZero, remRadian} from '../../util/number';
 import {createSymbol} from '../../util/symbol';
-import * as matrixUtil from 'zrender/src/core/matrix';
-import {applyTransform as v2ApplyTransform} from 'zrender/src/core/vector';
+import * as matrixUtil from '@ftf/zrender/src/core/matrix';
+import {applyTransform as v2ApplyTransform} from '@ftf/zrender/src/core/vector';
 import {shouldShowAllLabels} from '../../coord/axisHelper';
 
 

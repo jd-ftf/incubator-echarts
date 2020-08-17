@@ -18,7 +18,7 @@
 * under the License.
 */
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("@ftf/zrender/lib/core/util");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one

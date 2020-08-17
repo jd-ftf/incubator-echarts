@@ -22,7 +22,7 @@
 import {subPixelOptimize} from '../../util/graphic';
 import createRenderPlanner from '../helper/createRenderPlanner';
 import {parsePercent} from '../../util/number';
-import {retrieve2} from 'zrender/src/core/util';
+import {retrieve2} from '@ftf/zrender/src/core/util';
 
 var LargeArr = typeof Float32Array !== 'undefined' ? Float32Array : Array;
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each} from 'zrender/src/core/util';
+import {each} from '@ftf/zrender/src/core/util';
 import parseGeoJson from './parseGeoJson';
 import {makeInner} from '../../util/model';
 

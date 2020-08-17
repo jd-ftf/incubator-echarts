@@ -27,7 +27,7 @@
 * </licenses/LICENSE-d3>).
 */
 
-import * as vec2 from 'zrender/src/core/vector';
+import * as vec2 from '@ftf/zrender/src/core/vector';
 
 var scaleAndAdd = vec2.scaleAndAdd;
 

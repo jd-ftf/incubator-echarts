@@ -26,7 +26,7 @@
 * </licenses/LICENSE-d3>).
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 
 var RADIAN_EPSILON = 1e-4;
 

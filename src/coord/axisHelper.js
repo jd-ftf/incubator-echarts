@@ -18,7 +18,7 @@
 */
 
 import {__DEV__} from '../config';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import OrdinalScale from '../scale/Ordinal';
 import IntervalScale from '../scale/Interval';
 import Scale from '../scale/Scale';
@@ -28,7 +28,7 @@ import {
     makeColumnLayout,
     retrieveColumnLayout
 } from '../layout/barGrid';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
 
 import '../scale/Time';
 import '../scale/Log';
@@ -388,7 +388,8 @@ function rotateTextRect(textRect, rotate) {
     var beforeWidth = boundingBox.width;
     var beforeHeight = boundingBox.height;
     var afterWidth = beforeWidth * Math.abs(Math.cos(rotateRadians)) + Math.abs(beforeHeight * Math.sin(rotateRadians));
-    var afterHeight = beforeWidth * Math.abs(Math.sin(rotateRadians)) + Math.abs(beforeHeight * Math.cos(rotateRadians));
+    var afterHeight = beforeWidth * Math.abs(Math.sin(rotateRadians))
+        + Math.abs(beforeHeight * Math.cos(rotateRadians));
     var rotatedRect = new BoundingRect(boundingBox.x, boundingBox.y, afterWidth, afterHeight);
 
     return rotatedRect;

@@ -17,31 +17,31 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as pathTool from 'zrender/src/tool/path';
-import * as colorTool from 'zrender/src/tool/color';
-import * as matrix from 'zrender/src/core/matrix';
-import * as vector from 'zrender/src/core/vector';
-import Path from 'zrender/src/graphic/Path';
-import Transformable from 'zrender/src/mixin/Transformable';
-import ZImage from 'zrender/src/graphic/Image';
-import Group from 'zrender/src/container/Group';
-import Text from 'zrender/src/graphic/Text';
-import Circle from 'zrender/src/graphic/shape/Circle';
-import Sector from 'zrender/src/graphic/shape/Sector';
-import Ring from 'zrender/src/graphic/shape/Ring';
-import Polygon from 'zrender/src/graphic/shape/Polygon';
-import Polyline from 'zrender/src/graphic/shape/Polyline';
-import Rect from 'zrender/src/graphic/shape/Rect';
-import Line from 'zrender/src/graphic/shape/Line';
-import BezierCurve from 'zrender/src/graphic/shape/BezierCurve';
-import Arc from 'zrender/src/graphic/shape/Arc';
-import CompoundPath from 'zrender/src/graphic/CompoundPath';
-import LinearGradient from 'zrender/src/graphic/LinearGradient';
-import RadialGradient from 'zrender/src/graphic/RadialGradient';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import IncrementalDisplayable from 'zrender/src/graphic/IncrementalDisplayable';
-import * as subPixelOptimizeUtil from 'zrender/src/graphic/helper/subPixelOptimize';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as pathTool from '@ftf/zrender/src/tool/path';
+import * as colorTool from '@ftf/zrender/src/tool/color';
+import * as matrix from '@ftf/zrender/src/core/matrix';
+import * as vector from '@ftf/zrender/src/core/vector';
+import Path from '@ftf/zrender/src/graphic/Path';
+import Transformable from '@ftf/zrender/src/mixin/Transformable';
+import ZImage from '@ftf/zrender/src/graphic/Image';
+import Group from '@ftf/zrender/src/container/Group';
+import Text from '@ftf/zrender/src/graphic/Text';
+import Circle from '@ftf/zrender/src/graphic/shape/Circle';
+import Sector from '@ftf/zrender/src/graphic/shape/Sector';
+import Ring from '@ftf/zrender/src/graphic/shape/Ring';
+import Polygon from '@ftf/zrender/src/graphic/shape/Polygon';
+import Polyline from '@ftf/zrender/src/graphic/shape/Polyline';
+import Rect from '@ftf/zrender/src/graphic/shape/Rect';
+import Line from '@ftf/zrender/src/graphic/shape/Line';
+import BezierCurve from '@ftf/zrender/src/graphic/shape/BezierCurve';
+import Arc from '@ftf/zrender/src/graphic/shape/Arc';
+import CompoundPath from '@ftf/zrender/src/graphic/CompoundPath';
+import LinearGradient from '@ftf/zrender/src/graphic/LinearGradient';
+import RadialGradient from '@ftf/zrender/src/graphic/RadialGradient';
+import BoundingRect from '@ftf/zrender/src/core/BoundingRect';
+import IncrementalDisplayable from '@ftf/zrender/src/graphic/IncrementalDisplayable';
+import * as subPixelOptimizeUtil from '@ftf/zrender/src/graphic/helper/subPixelOptimize';
 
 
 var mathMax = Math.max;

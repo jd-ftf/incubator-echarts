@@ -18,8 +18,8 @@
 */
 
 import * as echarts from '../../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
-import * as eventTool from 'zrender/src/core/event';
+import * as zrUtil from '@ftf/zrender/src/core/util';
+import * as eventTool from '@ftf/zrender/src/core/event';
 import lang from '../../../lang';
 import * as featureManager from '../featureManager';
 

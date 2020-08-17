@@ -19,13 +19,13 @@
 
 var util = require("./a/b/util");
 
-var zrUtil = require("zrender/core/util");
+var zrUtil = require("@ftf/zrender/core/util");
 
 var someInZrUtil1Alias = zrUtil.someInZrUtil1;
 var zz = zrUtil.zz;
 exports.zrUtil = zrUtil;
 
-var _color = require("zrender/core/color");
+var _color = require("@ftf/zrender/core/color");
 
 var color2Alias = _color.color2;
 var color = _color.color;
@@ -40,7 +40,7 @@ exports.Some = Some;
 
 var Some2 = require("some2");
 
-var _util3 = require("zrender/lib/core/util");
+var _util3 = require("@ftf/zrender/lib/core/util");
 
 exports.someInZrUtil2 = _util3.someInZrUtil2;
 

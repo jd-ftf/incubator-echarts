@@ -41,7 +41,7 @@ import {__DEV__} from '../config';
 import {
     each, filter, map, isArray, indexOf, isObject, isString,
     createHashMap, assert, clone, merge, extend, mixin
-} from 'zrender/src/core/util';
+} from '@ftf/zrender/src/core/util';
 import * as modelUtil from '../util/model';
 import Model from './Model';
 import ComponentModel from './Component';

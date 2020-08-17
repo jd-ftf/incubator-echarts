@@ -19,13 +19,13 @@
 
 import {__DEV__} from '../../config';
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {setLabel} from './helper';
 import Model from '../../model/Model';
 import barItemStyle from './barItemStyle';
-import Path from 'zrender/src/graphic/Path';
-import Group from 'zrender/src/container/Group';
+import Path from '@ftf/zrender/src/graphic/Path';
+import Group from '@ftf/zrender/src/container/Group';
 import {throttle} from '../../util/throttle';
 import {createClipPath} from '../helper/createClipPathFromCoordSys';
 import Sausage from '../../util/shape/sausage';

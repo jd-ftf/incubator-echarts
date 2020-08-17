@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@ftf/zrender/src/core/util';
 import ChartView from '../../view/Chart';
 import * as graphic from '../../util/graphic';
-import Path from 'zrender/src/graphic/Path';
+import Path from '@ftf/zrender/src/graphic/Path';
 import {createClipPath} from '../helper/createClipPathFromCoordSys';
 
 var NORMAL_ITEM_STYLE_PATH = ['itemStyle'];
