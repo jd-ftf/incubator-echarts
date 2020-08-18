@@ -1,7 +1,7 @@
 {
-  "name": "echarts",
+  "name": "@ftf/echarts",
   "version": "4.8.0",
-  "description": "A powerful charting and visualization library for browser",
+  "description": "A powerful charting and visualization library for browser, adding jingdong mini program supporting",
   "license": "Apache-2.0",
   "keywords": [
     "visualization",
@@ -10,7 +10,7 @@
   "homepage": "http://echarts.apache.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/incubator-echarts.git"
+    "url": "https://github.com/jd-ftf/incubator-echarts.git"
   },
   "scripts": {
     "release": "node build/build.js --release",
